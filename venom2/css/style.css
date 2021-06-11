@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 body {
-   background-color: #14131A;
+   
    color: #ffffff;
    font-family: "Roboto", sans-serif;
    padding-top: 40px;
@@ -51,4 +51,44 @@ body {
    font-size: 16px;
    line-height: 140%;
    color: rgba(255, 255, 255, 0.8);
+}
+.button-grup {
+   margin-top: 70px;
+   display: flex;
+}
+.button-primary {
+   color: #8D0019;
+   background-color: #ffffff;
+}
+.button-icon,
+.button-text {
+   display: inline-block;
+   vertical-align: middle;
+}
+.button-icon {
+   width: 15px;
+}
+.button-text {
+   font-size: 14px;
+   line-height: 16px;
+   margin-left: 10px;
+}
+.button-link {
+   color: #ffffff;
+}
+.button {
+   padding: 15px 30px;
+   text-decoration: none;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+}
+.venom {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.blood {
+   background: url(../img/blood.png) no-repeat top right, #14131A url('../img/bacgraund.jpg') no-repeat center center / 100%;
+
 }
