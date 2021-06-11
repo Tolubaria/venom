@@ -7,7 +7,8 @@ body {
    padding-top: 40px;
 }
 .container {
-   max-width: 1140px;
+   /* max-width: 1140px; */
+   width: 90%;
    margin: 0 auto;
 }
 .header {
@@ -87,6 +88,8 @@ body {
    position: absolute;
    top: 0;
    right: 0;
+   max-width: 726px;
+   width: 40%;
 }
 .blood {
    background: url(../img/blood.png) no-repeat top right, #14131A url('../img/bacgraund.jpg') no-repeat center center / 100%;
